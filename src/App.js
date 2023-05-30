@@ -43,11 +43,7 @@ function App() {
         <button className="add-btn" onClick={handleAddButtonClick}>
           Add Numbers
         </button>
-        {sum && (
-          <p>
-            The sum of {firstNumber} and {secondNumber} is {sum}. Incredible!
-          </p>
-        )}
+        {sum && <p>The sum is {sum}. Incredible!</p>}
       </div>
 
       <div className="reverse-input-wrapper">
