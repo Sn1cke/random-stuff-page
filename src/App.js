@@ -47,7 +47,10 @@ function App() {
       </div>
 
       <div className="reverse-input-wrapper">
-        <h3>Do you know what else you can do? Reverse your text!</h3>
+        <h3>
+          Do you know what else you can do? Reverse your text with every other
+          letter capitalized!
+        </h3>
         <input
           type="text"
           className="reverse-text"
